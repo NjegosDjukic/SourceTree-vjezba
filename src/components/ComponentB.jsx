@@ -2,7 +2,12 @@ import React from 'react'
 
 const ComponentB = () => {
   return (
-    <div>ComponentB</div>
+    <div className='component-b'>
+      <div className='item'></div>
+      <div className='item'></div>
+      <div className='item'></div>
+
+    </div>
   )
 }
 export default ComponentB
